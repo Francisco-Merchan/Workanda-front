@@ -2,7 +2,7 @@
 Este es el cliente del desarrollo realizado como parte de la prueba tecnica.
 Para funcionar se debe descargar el repositorio backend del siguiente link
 
-`github.com/Workanda-bk`
+[Workanda Backend](https://github.com/Francisco-Merchan/Workanda-back "Workanda Backend")
 
 ###### Clonar el repositorio
 >Abrir la consola y clonar el repositorio
