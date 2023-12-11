@@ -19,7 +19,7 @@ Para funcionar se debe descargar el repositorio backend desde el siguiente link
 
 ######  Configurar Variables de entorno
 >Crear un archivo .env y escribir las siguientes variables de entorno
-`VITE_APP_API_URL=http://localhost:4000/api`
+    VITE_APP_API_URL=http://localhost:4000/api
 
 ###### Levantar el proyecto
 >Ejecutar el comando 
