@@ -1,0 +1,197 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --shadow-1: rgba(0,0,0,0.75);
+  --bg--modal: rgba(0, 0, 0, 0.3);
+  --bg-color: #bdb1d9;
+  --color-gray-1: #898484;
+  --color-gray-2: #373138;
+  --color-red-1: #de4137;
+  --color-violet-1: #583084;
+  --color-white-1: #ffff
+}
+
+body{
+  background-color: var(--bg-color);
+}
+
+.layout-auth-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-auth-form-container {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 7px;
+  padding: 0.8rem 1rem;
+  box-shadow: -7px 1px 23px -3px var(--shadow-1);
+}
+
+.layout-auth-title {
+  color: var(--color-gray-2);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form {
+border-radius: 10px;
+padding: .5rem .9rem;
+margin-top: .9rem;
+font-size: 1rem;
+outline: none;
+border: 3px var(--color-gray-1) solid;
+}
+
+.error-input-message{
+  color: var(--color-red-1);
+  font-weight: bold;
+}
+
+.button-submit{
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: .5rem 0;
+  background-color: var(--color-red-1);
+  cursor: pointer;
+  outline: none;
+  border: 2px var(--color-gray-1) solid;
+  font-weight: bold;
+  margin-top: .9rem;
+}
+
+.form-message {
+  padding: .5rem 0;
+  text-align: end;
+  color: var(--color-gray-2);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.app-navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem .5rem;
+}
+
+.nav-user-name{
+  font-weight: bold;
+}
+
+.button-close-sesion {
+  font-weight: bold;
+  background-color: var(--color-red-1);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: .3rem 1rem;
+  border-radius: 7px;
+}
+
+.main-app-page {
+  padding: 1rem .9rem;
+}
+
+.header-section{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.button-add {
+  font-weight: bold;
+  color: var(--color-white-1);
+  background-color: var(--color-violet-1);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: .3rem 1rem;
+  border-radius: 7px;
+}
+
+.input-search {
+  border: 3px var(--color-gray-1) solid;
+  outline: none;
+  border-radius: 15px;
+  font-weight: bold;
+  max-width: 200px;
+  margin-right: .2rem;
+  padding: .3rem .5rem;
+}
+
+.modal-fondo {
+  background-color: var(--bg--modal);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+.cards-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  gap: .5rem;
+}
+
+.user-card{
+  padding: .5rem 0;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-white-1);
+  border-radius: 10px;
+  justify-content: space-around;
+  min-width: 300px;
+  cursor: pointer;
+}
+
+.user-card:hover, .button-add:hover, .button-close-sesion:hover{
+opacity: .8;
+}
+
+
+.button-delete-user{
+  font-weight: bold;
+  background-color: var(--color-red-1);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: .5rem;
+  border-radius: 7px;
+  margin-bottom: .3rem;
+}
+
+.user-card-name{
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: .3rem;
+}
+
+.alert-message{
+  background-color: var(--color-red-1);
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: .8rem 0;
+  border-radius: 5px;
+  font-style: italic
+}
