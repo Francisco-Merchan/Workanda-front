@@ -11,7 +11,7 @@ Para funcionar se debe descargar el repositorio backend desde siguiente link
 `git clone https://github.com/Francisco-Merchan/Workanda-front.git`
 
 >SSH
-`git@github.com:Francisco-Merchan/Workanda-front.git`
+`git clone git@github.com:Francisco-Merchan/Workanda-front.git`
 
 ###### Instalar dependencias
 >Abrir la consola en la ubicacion donde clono el proyecto y ejecutar el comando
